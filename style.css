@@ -1,0 +1,71 @@
+.topic{
+    text-align: center;
+    padding-bottom: 10px;
+   
+    text-decoration: underline;
+}
+.heading{
+    text-decoration: underline;
+    background-color: rgb(245, 220, 196)
+}
+
+
+.pool{
+    border: 2px solid blue;
+    height: 450px;
+    width: 600px;
+    padding-left: 80px;
+}
+.baby img{
+    
+    position: relative;
+    
+    z-index: 2;
+
+}
+
+.boat img{
+    position: relative;
+    margin-top: -400px;
+    margin-left: 20px;
+}
+.boat{
+    position: relative;
+    z-index: 1;
+    
+}
+.water{
+    width: 500px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    margin-top: -300px;
+}
+
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 600px;
+}  
+th, td{
+    border: 3px solid rgb(75, 71, 71);
+    padding: 5px;
+}
+th{
+    font-size: 20px;
+    background-color: lightslategray;
+    color: white;
+}
+td{
+    color: darkgreen;
+}
+.fa-facebook-square{
+    font-size: 40px;
+    color: royalblue;
+
+}
+.fa-instagram{
+    font-size: 40px;
+    color:indianred
+}
